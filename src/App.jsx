@@ -7,12 +7,14 @@ import PainValue from './components/PainValue'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import News from './components/News'
 
 export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-cyan-50">
       <Navbar />
       <Hero />
+      <News />
       <Features />
       <HowItWorks />
       <PainValue />
